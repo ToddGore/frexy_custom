@@ -1,12 +1,61 @@
-header {
-    background-color: white;
-    color: grey;
+
+/* Black Button         #333333 */
+/* Darker Gray          #565656 */
+/* Text Gray            #666666 */
+/* Logo Text            #6e6e6e */
+/* Background Grey      #9c9c9c */
+/* Image cutout Gray    #a3a3a3 */
+/* Icon Gray            #adadad */
+/* Sub Box Light Gray   #fafafa */
+/* Box Orange           #e9682e */
+/* Button Orange        #e26228 */
+
+/* Greenish             #acac99 */
+
+.background-white {
+    background-color: #ffffff;
 }
 
 
 
-hr {
-    color: #E58D53;
-    background-color: #E58D53;
-    height: 3px;
+
+
+nav {
+    border-bottom: 2px solid #e9682e;
+}
+
+/* change the link color */
+.nav-link {
+    color: #666666;
+    font-family: "Open Sans";
+    font-weight: bold;
+    
+}
+
+/* change the brand and text color */
+.navbar-brand {
+    margin-left: 50px;
+}
+.logo-text {
+    color: #6e6e6e;
+    font-size: 25px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: #e9682e;
+}
+.nav-link:focus {
+    
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #e9682e;
+}
+
+
+body {
+    padding-top: 85px; 
 }
